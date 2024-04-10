@@ -9,7 +9,7 @@ caption {
  }
 
 thead, tbody {
-  background-color: #cc99ff;
+  background-color: #9bdafa;
   }
 
 tbody > tr:first-child {
@@ -24,12 +24,16 @@ tbody > tr:nth-child(3) {
   background-color: #ffbb99;
 }
 
+tbody > tr:nth-child(4) {
+  background-color: #d4905d;
+}
+
 tbody >tr:last-child {
   background-color: #ff8080;
 }
 
 tfoot {
-  background-color: #dfbf9f;
+  background-color: #6bc5f2;
 }
 
 /* text v odstavci */
