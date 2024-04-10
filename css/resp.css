@@ -1,13 +1,13 @@
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   .tabulky {
     flex-direction: row;
     justify-content: space-evenly;
   }
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 1199px) {
 table {
-  min-width: 98vw;
+  width: 95vW;
   font-size: 16px;
 }
 }
