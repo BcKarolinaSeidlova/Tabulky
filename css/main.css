@@ -1,0 +1,67 @@
+/* tabulky */ 
+caption {
+  font-style: oblique;
+ }
+
+thead, tbody {
+  background-color: #cc99ff;
+  }
+
+tbody > tr:first-child {
+  background-color: #ffcc66;
+  }
+
+tbody > tr:nth-child(2) {
+  background-color: #d1d1e0;
+}
+
+tbody > tr:nth-child(3) {
+  background-color: #ffbb99;
+}
+
+tbody >tr:last-child {
+  background-color: #ff8080;
+}
+
+tfoot {
+  background-color: #dfbf9f;
+}
+
+/* text v odstavci */
+
+p {
+  text-align: center;
+}
+
+/* Flex */
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+	width: 95vW;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer {
+	margin-top: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;  
+}
