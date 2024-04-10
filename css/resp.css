@@ -1,13 +1,19 @@
-@media screen and (min-width: 1200px) {
+/* nastaveni pro sirku  minimalne 900 px */
+@media screen and (min-width: 900px) {
   .tabulky {
     flex-direction: row;
     justify-content: space-evenly;
   }
 }
 
-@media screen and (max-width: 1199px) {
-table {
+/* nastaveni pro sirku maximalne 899px */
+@media screen and (max-width: 899px) {
+body {
+  font-size: 1.3em;
+}
+  
+  table {
   width: 95vW;
-  font-size: 16px;
+  font-size: 1.3em;
 }
 }
