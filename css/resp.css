@@ -1,5 +1,3 @@
-/* zobrazeni na obrazovkach o sirce minimalne 900px */
-
 @media screen and (min-width: 900px) {
   .tabulky {
     flex-direction: row;
