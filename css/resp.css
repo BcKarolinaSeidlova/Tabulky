@@ -8,12 +8,12 @@
 
 /* nastaveni pro sirku maximalne 899px */
 @media screen and (max-width: 899px) {
-body {
-  font-size: 1.3em;
-}
-  
   table {
   width: 95vW;
-  font-size: 1.3em;
+  font-size: 16px;
 }
+
+  p, .footer {
+    font-size: 12px;
+  }
 }
