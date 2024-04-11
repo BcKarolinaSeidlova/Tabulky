@@ -3,11 +3,6 @@
    body {
      justify-content: stretch; 
    }
-  
-  .tabulky {
-    flex-direction: row;
-    align-items: space-evenly;
-  }
 }
 
 /* nastaveni pro sirku maximalne 899px */
@@ -15,6 +10,10 @@
   table {
   width: 95vW;
   font-size: 16px;
+}
+
+.tabulky {
+   flex-direction: column;
 }
 
   p, .footer {
