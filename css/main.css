@@ -1,3 +1,7 @@
+body {
+	width: 98vw;
+}
+
 /* Nastaveni flex */
 .content {
 	display: flex;
