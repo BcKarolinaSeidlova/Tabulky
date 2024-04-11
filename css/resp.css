@@ -3,7 +3,7 @@
 }
 
 /* nastaveni pro sirku maximalne 899px */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 400px) {
   table {
   width: 95vW;
   font-size: 16px;
