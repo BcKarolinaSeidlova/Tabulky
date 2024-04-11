@@ -1,3 +1,4 @@
+/* Nastaveni flex */
 .content {
 	display: flex;
 	flex-direction: column;
@@ -17,6 +18,7 @@
   margin: 20px;
 }
 
+/* Dalsi formatovani, hlavne textu */
 .footer {
   text-align: center;
 }
@@ -31,7 +33,7 @@ p {
 }
 
 
-/* tabulky */ 
+/* Formatovani tabulek */ 
 caption {
   font-style: oblique;
  }
