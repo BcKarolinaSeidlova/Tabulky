@@ -1,11 +1,14 @@
 /* nastaveni pro sirku  minimalne 900 px */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
+  .footer {
+    margin-top: auto;
+  }
 }
 
 /* nastaveni pro sirku maximalne 899px */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 899px) {
   table {
-  width: 95vW;
+  width: 85vW;
   font-size: 16px;
 }
 
@@ -16,4 +19,10 @@
   p, .footer {
     font-size: 16px;
   }
+}
+
+@media screen and (max-width: 500px) {
+    table {
+      width: 90vw;
+    }
 }
