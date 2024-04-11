@@ -1,12 +1,9 @@
 /* nastaveni pro sirku  minimalne 900 px */
 @media screen and (min-width: 900px) {
-   body {
-     justify-content: stretch; 
-   }
 }
 
 /* nastaveni pro sirku maximalne 899px */
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 599px) {
   table {
   width: 95vW;
   font-size: 16px;
