@@ -1,7 +1,35 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main, .header, .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tabulky {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.footer {
+  text-align: center;
+}
+
 h1, h2 {
   text-align: center;
   margin: 0px;
 }
+
+p {
+  text-align: center;
+}
+
 
 /* tabulky */ 
 caption {
@@ -34,51 +62,4 @@ tbody >tr:last-child {
 
 tfoot {
   background-color: #6bc5f2;
-}
-
-/* text v odstavci */
-
-p {
-  text-align: center;
-  font-size: 12px;
-}
-
-/* Flex */
-.content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-.box {
-	width: 95vW;
-}
-
-.header {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-  }
-
-.main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.tabulky {
-	display: flex;
-	justify-content: center;
-}
-
-.footer {
-	margin-top: 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-size: 12px;
 }
