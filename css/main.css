@@ -1,5 +1,5 @@
 body {
-	width: 93vw;
+	width: 95vw;
 	background-color: black;
 	color: white;
 }
@@ -81,6 +81,5 @@ tbody > tr:nth-child(4) {
 /* Zmena po najeti mysi */
 tr:hover {
   filter: brightness(150%);
-  font-weight: bold;
 }
 
