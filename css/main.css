@@ -45,7 +45,9 @@ p {
 
 /* Formatovani tabulek */ 
 caption {
+  color: white;
   font-style: oblique;
+  font-family: "Quintessential", serif;
  }
 
 thead, tbody {
@@ -75,3 +77,4 @@ tbody > tr:nth-child(4) {
 .Prohra {
   background-color: #6bc5f2;
 }
+
