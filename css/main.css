@@ -65,10 +65,10 @@ tbody > tr:nth-child(4) {
   background-color: #d4905d;
 }
 
-tbody >tr:last-child {
+.Lucerna {
   background-color: #ff8080;
 }
 
-tfoot {
+.Prohra {
   background-color: #6bc5f2;
 }
