@@ -16,6 +16,10 @@
   tbody, tfoot {
     font-size: 16px;
   }
+
+  #Prubezna {
+    margin-left: 20px;
+  }
   
   .footer {
     margin-top: auto;
