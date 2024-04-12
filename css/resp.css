@@ -4,6 +4,19 @@
     font-size: 16px;
     height: fit-content;
   }
+
+  caption {
+    font-size: 25px;
+  }
+
+  thead {
+    font-size: 20px
+  }
+
+  tbody, tfoot {
+    font-size: 16px;
+  }
+  
   .footer {
     margin-top: auto;
   }
@@ -13,7 +26,7 @@
 @media screen and (max-width: 899px) {
   table {
   width: 85vW;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .tabulky {
