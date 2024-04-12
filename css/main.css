@@ -1,15 +1,15 @@
 body {
-	width: 95vw;
-	background-color: black;
-	color: white;
+   width: 95vw;
+   background-color: black;
+   color: #f4ddba;
 }
 
 /* Nastaveni flex */
 .content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
 .main, .header, .footer {
@@ -45,7 +45,7 @@ p {
 
 /* Formatovani tabulek */ 
 caption {
-  color: white;
+  color: #f4ddba;
   font-style: oblique;
   font-family: "Quintessential", serif;
  }
