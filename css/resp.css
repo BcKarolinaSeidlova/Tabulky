@@ -37,6 +37,10 @@
    flex-direction: column;
 }
 
+  #Prubezna {
+    margin-top: 20px;
+  }
+
   p, .footer {
     font-size: 16px;
   }
