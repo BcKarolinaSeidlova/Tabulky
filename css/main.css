@@ -80,6 +80,7 @@ tbody > tr:nth-child(4) {
 
 /* Zmena po najeti mysi */
 tr:hover {
+   background-color: #9bdafa;
   filter: brightness(150%);
 }
 
