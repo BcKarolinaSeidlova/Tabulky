@@ -27,11 +27,8 @@ body {
 
 /* Dalsi formatovani, hlavne textu */
 .footer {
-  text-align: center;
-}
-
-.footer > a {
    display: inline-block;
+   text-align: center;
 }
 
 h1, h2 {
@@ -85,6 +82,7 @@ tr:hover {
    filter: brightness(150%);
 }
 
+/* Zmena barvy odkazu */
 a:link {
    color: cyan;
 }
