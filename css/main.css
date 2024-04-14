@@ -85,7 +85,7 @@ tr:hover {
    filter: brightness(150%);
 }
 
-a {
+a:link {
    color: cyan;
 }
 
