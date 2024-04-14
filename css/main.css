@@ -30,6 +30,10 @@ body {
   text-align: center;
 }
 
+.footer > a {
+   display: inline-block;
+}
+
 h1, h2 {
   text-align: center;
   margin: 0px;
@@ -54,19 +58,19 @@ thead, tbody {
   background-color: #9bdafa;
   }
 
-tbody > tr:first-child {
+.Zlato {
   background-color: #ffcc66;
   }
 
-tbody > tr:nth-child(2) {
+.Stribro {
   background-color: #d1d1e0;
 }
 
-tbody > tr:nth-child(3) {
+.Bronz {
   background-color: #ffbb99;
 }
 
-tbody > tr:nth-child(4) {
+.Brambora {
   background-color: #d4905d;
 }
 
@@ -74,13 +78,18 @@ tbody > tr:nth-child(4) {
   background-color: #ff8080;
 }
 
-.Prohra {
-  background-color: #6bc5f2;
-}
 
 /* Zmena po najeti mysi */
 tr:hover {
    background-color: #9bdafa;
-  filter: brightness(150%);
+   filter: brightness(150%);
+}
+
+a {
+   color: cyan;
+}
+
+a:visited {
+   color: magenta;
 }
 
