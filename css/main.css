@@ -83,11 +83,11 @@ tr:hover {
 }
 
 /* Zmena barvy odkazu */
-a:link {
+a:visited {
    color: cyan;
 }
 
-a:visited {
+a:hover {
    color: magenta;
 }
 
