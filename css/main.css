@@ -109,7 +109,7 @@ a:hover {
 }
 
 
-#Menu {
+#Menu  > p {
    font-size: 25px;
 }
 
