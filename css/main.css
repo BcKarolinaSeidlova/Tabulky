@@ -108,3 +108,18 @@ a:hover {
    color: magenta;
 }
 
+
+#Menu {
+   font-size: 25px;
+}
+
+#Odkazy {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
