@@ -44,7 +44,19 @@ p {
 }
 
 
-/* Formatovani tabulek */ 
+/* Formatovani tabulek */
+table {
+   border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 2px dotted grey;
+}
+
+tbody > tr:last-child {
+  border: 0px;
+}
+
 caption {
   color: #f4ddba;
   font-style: oblique;
@@ -85,6 +97,7 @@ tr:hover {
 /* Zmena barvy odkazu */
 a:link {
    color: cyan;
+   text-decoration: none;
 }
 
 a:visited {
