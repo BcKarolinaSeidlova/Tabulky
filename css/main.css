@@ -115,10 +115,15 @@ a:hover {
 
 #Odkazy {
   display: none;
+  text-align: center;
+  padding: 0px;
+  border: 1px solid cyan;
+  margin: 0px;
 }
 
 li {
   list-style-type: none;
+  padding: 5px;
 }
 
 
