@@ -25,6 +25,20 @@ body {
   color: black;
 }
 
+#Poznamka {
+  width: 95%;
+  background: #4a1180;
+  border: 5px solid #781bcf;
+  font-family: "Parisienne", cursive;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 30px;
+  }
+
+#Poznamka:hover {
+  filter: brightness(180%);
+}
+
 /* Dalsi formatovani, hlavne textu */
 .footer {
    display: inline-block;
@@ -89,7 +103,7 @@ thead, tbody {
 
 
 /* Zmena po najeti mysi */
-tr:hover {
+tbody tr:hover {
    background-color: #9bdafa;
    filter: brightness(150%);
 }
@@ -112,6 +126,7 @@ a:hover {
 #Menu  > p {
    font-size: 25px;
    margin: 25px 0px 0px 0px;
+   cursor: pointer;
 }
 
 #Odkazy {
