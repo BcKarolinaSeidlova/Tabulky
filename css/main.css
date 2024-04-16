@@ -26,19 +26,14 @@ body {
 }
 
 #Poznamka {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   
-  width: 75vw;
+  width: 60vw;
   background: #4a1180;
   border: 5px solid #781bcf;
+  border-radius: 30px;
   font-family: "Parisienne", cursive;
   font-size: 25px;
   padding: 5px;
-  border-radius: 30px;
+  margin-bottom: 25px;
   }
 
 #Poznamka:hover {
