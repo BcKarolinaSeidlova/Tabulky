@@ -26,6 +26,10 @@ body {
 }
 
 #Poznamka {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
   width: 80vw;
   background: #4a1180;
   border: 5px solid #781bcf;
@@ -123,6 +127,8 @@ a:hover {
 }
 
 #Menu {
+   display: flex;
+   flex-direction: column;
    justify-content: center;
 }
 
