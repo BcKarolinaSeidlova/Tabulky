@@ -128,7 +128,7 @@ a:hover {
    color: magenta;
 }
 
-#Menu {
+/* #Menu {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -147,7 +147,40 @@ a:hover {
   padding: 0px;
   border: 1px solid cyan;
   margin: 0px 10px 0px 10px;
+} */
+
+#Odkazy {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
 }
+
+li {
+  width: 170px;
+  list-style-type: none;
+  padding: 10px;
+  border: 2px solid cyan;
+  border-radius: 30px;
+  margin: 3px;
+}
+
+#Menu {
+   margin: 25px 0px 0px 0px;
+}
+
+#Button {
+  width: 400px;
+  font-size: 25px;
+  width: 95vw;
+  background: black;
+  padding: 10px 0px 10px 0px;
+  border: 2px solid cyan;
+  border-radius: 30px;
+}
+
 
 li {
   list-style-type: none;
