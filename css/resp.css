@@ -24,6 +24,10 @@
   .footer {
     margin-top: auto;
   }
+
+  #Odkazy {
+    width: 45vw;
+  }
 }
 
 /* nastaveni pro sirku maximalne 899px */
