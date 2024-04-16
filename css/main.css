@@ -128,14 +128,14 @@ a:hover {
    color: magenta;
 }
 
-/* #Menu {
+#Menu {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
 }
 
-#Menu  > p {
+/*#Menu  > p {
    font-size: 25px;
    margin: 25px 0px 0px 0px;
    cursor: pointer;
