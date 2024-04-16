@@ -29,6 +29,13 @@
     width: 400px;
   }
 
+  #Menu, #Poznamka {
+     display: flex;
+	   flex-direction: column;
+	   align-items: center;
+	   justify-content: center;
+  }
+
 }
 
 /* nastaveni pro sirku maximalne 899px */
