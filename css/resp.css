@@ -25,6 +25,10 @@
     margin-top: auto;
   }
 
+  #Menu, #Button {
+    width: 400px;
+  }
+
 }
 
 /* nastaveni pro sirku maximalne 899px */
