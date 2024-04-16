@@ -29,6 +29,7 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   align-items: center;
    
   width: 80vw;
   background: #4a1180;
@@ -130,6 +131,7 @@ a:hover {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   align-items: center;
 }
 
 #Menu  > p {
