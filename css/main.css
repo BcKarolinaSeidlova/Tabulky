@@ -131,20 +131,6 @@ a:hover {
    align-items: center;
 }
 
-/*#Menu  > p {
-   font-size: 25px;
-   margin: 25px 0px 0px 0px;
-   cursor: pointer;
-}
-
-#Odkazy {
-  display: none;
-  text-align: center;
-  padding: 0px;
-  border: 1px solid cyan;
-  margin: 0px 10px 0px 10px;
-} */
-
 #Odkazy {
   display: none;
   flex-direction: column;
@@ -163,8 +149,13 @@ li {
   margin: 3px;
 }
 
+li :hover {
+   color: black;
+   background-color: cyan;
+}
+
 #Menu {
-   margin: 25px 0px 0px 0px;
+   margin: 25px auto 0px auto;
 }
 
 #Button {
