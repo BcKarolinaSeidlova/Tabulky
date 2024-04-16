@@ -30,8 +30,9 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   text-align: center;
    
-  width: 80vw;
+  width: 75vw;
   background: #4a1180;
   border: 5px solid #781bcf;
   font-family: "Parisienne", cursive;
