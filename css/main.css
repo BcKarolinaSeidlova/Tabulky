@@ -141,16 +141,15 @@ a:hover {
   margin: 0px;
 }
 
-li {
+ul a {
   width: 30vw;
-  list-style-type: none;
   padding: 10px;
   border: 2px solid cyan;
   border-radius: 30px;
   margin: 3px;
 }
 
-li:hover {
+ul a:hover {
    color: black;
    background-color: cyan;
 }
