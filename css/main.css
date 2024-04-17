@@ -129,6 +129,7 @@ a:hover {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin: 25px auto 0px auto;
 }
 
 #Odkazy {
@@ -141,7 +142,7 @@ a:hover {
 }
 
 li {
-  width: 170px;
+  width: 30vw;
   list-style-type: none;
   padding: 10px;
   border: 2px solid cyan;
@@ -154,10 +155,6 @@ li :hover {
    background-color: cyan;
 }
 
-#Menu {
-   margin: 25px auto 0px auto;
-}
-
 #Button {
   width: 400px;
   font-size: 25px;
@@ -166,12 +163,6 @@ li :hover {
   padding: 10px 0px 10px 0px;
   border: 2px solid cyan;
   border-radius: 30px;
-}
-
-
-li {
-  list-style-type: none;
-  padding: 5px;
 }
 
 
