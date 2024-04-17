@@ -25,6 +25,58 @@ body {
   color: black;
 }
 
+/* Nadpisy */
+h1, h2 {
+  text-align: center;
+  margin: 0px;
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Menu, tlacitka v menu */
+#Menu {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 25px auto 0px auto;
+}
+
+#Button {
+  width: 400px;
+  font-size: 25px;
+  width: 95vw;
+  background: black;
+  padding: 10px 0px 10px 0px;
+  border: 2px solid cyan;
+  border-radius: 30px;
+}
+
+#Odkazy {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+/* Odkazy v menu */
+ul a {
+  width: 30vw;
+  padding: 10px;
+  border: 2px solid cyan;
+  border-radius: 30px;
+  margin: 3px;
+}
+
+ul a:hover {
+   color: black;
+   background-color: cyan;
+}
+
+/* Poznamka */
 #Poznamka {
   width: 90vw;
   background: #4a1180;
@@ -41,25 +93,27 @@ body {
   filter: brightness(180%);
 }
 
-/* Dalsi formatovani, hlavne textu */
+/* Footer */
 .footer {
    display: inline-block;
    text-align: center;
 }
 
-h1, h2 {
-  text-align: center;
-  margin: 0px;
-  font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
+/* Zmena barvy odkazu ve footeru */
+a:link {
+   color: cyan;
+   text-decoration: none;
 }
 
-p {
-  text-align: center;
+a:visited {
+   color: cyan;
 }
 
+a:hover {
+   color: magenta;
+}
 
+/* TABULKY */
 /* Formatovani tabulek */
 table {
    border-collapse: collapse;
@@ -69,7 +123,12 @@ tr {
   border-bottom: 2px dotted grey;
 }
 
-tbody > tr:last-child {
+tbody tr:hover {
+   background-color: #9bdafa;
+   filter: brightness(150%);
+}
+
+tbody tr:last-child {
   border: 0px;
 }
 
@@ -102,67 +161,3 @@ thead, tbody {
 .Lucerna {
   background-color: #ff8080;
 }
-
-
-/* Zmena po najeti mysi */
-tbody tr:hover {
-   background-color: #9bdafa;
-   filter: brightness(150%);
-}
-
-/* Zmena barvy odkazu */
-a:link {
-   color: cyan;
-   text-decoration: none;
-}
-
-a:visited {
-   color: cyan;
-}
-
-a:hover {
-   color: magenta;
-}
-
-#Menu {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   margin: 25px auto 0px auto;
-}
-
-#Odkazy {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 5px;
-  margin: 0px;
-}
-
-ul a {
-  width: 30vw;
-  padding: 10px;
-  border: 2px solid cyan;
-  border-radius: 30px;
-  margin: 3px;
-}
-
-ul a:hover {
-   color: black;
-   background-color: cyan;
-}
-
-#Button {
-  width: 400px;
-  font-size: 25px;
-  width: 95vw;
-  background: black;
-  padding: 10px 0px 10px 0px;
-  border: 2px solid cyan;
-  border-radius: 30px;
-}
-
-
-
