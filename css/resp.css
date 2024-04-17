@@ -29,11 +29,6 @@
     width: 400px;
   }
 
-  #Menu, #Poznamka {
-     margin-right: auto;
-     margin-left: auto;
-  }
-
 }
 
 /* nastaveni pro sirku maximalne 899px */
