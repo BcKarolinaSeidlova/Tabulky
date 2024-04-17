@@ -150,7 +150,7 @@ li {
   margin: 3px;
 }
 
-li :hover {
+li:hover {
    color: black;
    background-color: cyan;
 }
