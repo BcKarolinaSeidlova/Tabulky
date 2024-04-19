@@ -52,6 +52,7 @@ h1, h2 {
   border: 2px solid #f4ddba;
   border-radius: 30px;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 #Odkazy {
@@ -103,16 +104,16 @@ h1, h2 {
 }
 
 /* Zmena barvy odkazu ve footeru */
-a:link {
+footer a:link {
    color: cyan;
    text-decoration: none;
 }
 
-a:visited {
+footer a:visited {
    color: cyan;
 }
 
-a:hover {
+footer a:hover {
    color: magenta;
 }
 
