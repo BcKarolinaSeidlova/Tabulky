@@ -39,6 +39,7 @@
   /* zmena sirky tlacitek v menu*/
   ul a {
     width: 80vw;
+    font-size: 16px;
   }
 
   /* Tabulky */
