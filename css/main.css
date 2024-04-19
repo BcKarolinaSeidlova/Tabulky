@@ -65,7 +65,7 @@ h1, h2 {
 }
 
 /* Odkazy v menu */
-ul a {
+ul>a {
   width: 30vw;
   color: #f4ddba;
   padding: 10px;
@@ -74,7 +74,7 @@ ul a {
   margin: 3px;
 }
 
-ul a:hover {
+ul>a:hover {
    color: black;
    background-color: #f4ddba;
 }
