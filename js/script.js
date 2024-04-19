@@ -9,7 +9,7 @@ function Show () {
  if (odkazy.style.getPropertyValue("display") == "none") {
   odkazy.style.setProperty("display", "flex");
   button.style.setProperty("color","black");
-  button.style.setProperty("background","cyan");
+  button.style.setProperty("background","#f4ddba");
 } else {
   odkazy.style.setProperty("display", "none");
   button.style.setProperty("color","#f4ddba");
