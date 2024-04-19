@@ -65,16 +65,16 @@ h1, h2 {
 }
 
 /* Odkazy v menu */
-ul>a {
+.ButtonSmall {
   width: 30vw;
-  color: #f4ddba;
   padding: 10px;
   border: 2px solid #f4ddba;
   border-radius: 30px;
   margin: 3px;
+  color: #f4ddba;
 }
 
-ul>a:hover {
+.ButtonSmall:hover {
    color: black;
    background-color: #f4ddba;
 }
