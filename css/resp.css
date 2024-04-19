@@ -37,7 +37,7 @@
 /* nastaveni pro sirku maximalne 899px */
 @media screen and (max-width: 899px) {
   /* zmena sirky tlacitek v menu*/
-  ul a {
+  .ButtonSmall {
     width: 80vw;
     font-size: 16px;
   }
