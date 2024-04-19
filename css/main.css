@@ -67,6 +67,7 @@ h1, h2 {
 /* Odkazy v menu */
 ul a {
   width: 30vw;
+  color: #f4ddba;
   padding: 10px;
   border: 2px solid #f4ddba;
   border-radius: 30px;
