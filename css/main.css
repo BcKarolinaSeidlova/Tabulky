@@ -97,21 +97,22 @@ h1, h2 {
   margin: 25px auto 25px auto;
   }
 
+#Poznamka>* {
+   margin: 0px;
+}
+
 #Poznamka:hover {
   filter: brightness(180%);
 }
 
 /* Footer */
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
   margin-top: 25px;
 }
 
 .footer>* {
-   margin: 0px;
-   text-align: center;   
+   margin: 0px;  
 }
 
 /* Zmena barvy odkazu ve footeru */
