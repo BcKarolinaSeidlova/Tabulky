@@ -63,6 +63,11 @@ h1, h2 {
   text-align: center;
   padding: 5px;
   margin: 0px;
+
+  position: absolute;
+  top: 175px;
+  background-color: black;
+   
 }
 
 /* Odkazy v menu */
