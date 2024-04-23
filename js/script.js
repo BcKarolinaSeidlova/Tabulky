@@ -31,14 +31,8 @@ function Hide () {
 
 
 //Pokus
-var header = document.getElementsByClassName("header");
+var header = document.getElementById("header");
 var pozn = document.getElementById("Poznamka");
 
-document.addEventListener('DOMContentLoaded', function() {
-
-  var width = header.offsetWidth;
-  var pozn = document.getElementById("Poznamka");
-  pozn.innerHTML = width;
-
-}, false);
-
+var height = header.offsetHeight;
+pozn.innerHTML = height;
