@@ -4,6 +4,10 @@ var menu = document.getElementById("Menu");
 var odkazy = document.getElementById("Odkazy");
 var button = document.getElementById("Button");
 var tabulky = document.getElementsByTagName("table");
+
+var header = document.getElementById("header");
+var pozn = document.getElementById("Poznamka");
+
 menu.addEventListener("click", Show);
 tabulky.addEventListener("mouseover", Hide);
 tabulky.addEventListener("touchstart", Hide);
@@ -31,8 +35,5 @@ function Hide () {
 
 
 //Pokus
-var header = document.getElementById("header");
-var pozn = document.getElementById("Poznamka");
-
 var height = header.offsetHeight;
 pozn.innerHTML = height;
