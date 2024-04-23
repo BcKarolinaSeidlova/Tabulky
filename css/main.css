@@ -12,17 +12,10 @@ body {
    justify-content: center;
 }
 
-.main, .header, .footer {
+.main, #header, .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  height: auto;
-}
-
-.header {
-   width: 400px;
-   height: 50px;
 }
 
 .tabulky {
@@ -39,6 +32,7 @@ h1, h2 {
   font-family: "Quintessential", serif;
   font-weight: 400;
   font-style: normal;
+  width: 80vw;
 }
 
 /* Menu, tlacitka v menu */
