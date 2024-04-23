@@ -6,6 +6,7 @@ var button = document.getElementById("Button");
 var tabulky = document.getElementsByTagName("table");
 menu.addEventListener("click", Show);
 tabulky.addEventListener("mouseover", Hide);
+tabulky.addEventListener("click", Hide);
 
 function Show () {
  if (odkazy.style.getPropertyValue("display") == "none") {
