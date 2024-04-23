@@ -40,10 +40,6 @@
   #Menu, #Button {
     width: 95vw;
   }
-
-  #Odkazy {
-    top: 250px;
-  }
   
   .ButtonSmall {
     width: 80vw;
@@ -81,4 +77,10 @@
   table {
       width: 90vw;
     }
+}
+
+@media screen and (max-width: 350px) {
+  #Odkazy {
+    top: 250px;
+  }
 }
