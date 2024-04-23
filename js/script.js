@@ -3,7 +3,7 @@
 var menu = document.getElementById("Menu");
 var odkazy = document.getElementById("Odkazy");
 var button = document.getElementById("Button");
-var tabulky = document.getElementByClassName("Tabulky");
+var tabulky = document.getElementsByTagName("table");
 menu.addEventListener("click", Show);
 tabulky.addEventListener("mouseout", Hide);
 
