@@ -4,6 +4,7 @@ var menu = document.getElementById("Menu");
 var odkazy = document.getElementById("Odkazy");
 var button = document.getElementById("Button");
 menu.addEventListener("click", Show);
+odkazy.addEventListener("mouseout", Hide);
 
 function Show () {
  if (odkazy.style.getPropertyValue("display") == "none") {
@@ -15,4 +16,10 @@ function Show () {
   button.style.setProperty("color","#f4ddba");
   button.style.setProperty("background","black");
       }
+}
+
+function Hide () {
+  if (odkazy.style.getPropertyValue("display") == "flex") {
+  odkazy.style.setProperty("display", "none");
+  }
 }
