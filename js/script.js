@@ -7,8 +7,8 @@ var tabulky = document.getElementsByTagName("table");
 
 var header = document.getElementById("header");
 var pozn = document.getElementById("Poznamka");
-var height = header.offsetHeight + menu.offsetHeight + 30 + "px";
-pozn.innerHTML = height;
+var height = header.offsetHeight + menu.offsetHeight + menu.style.getPropertyValue("margin-top") + "px";
+pozn.innerHTML = "margin-top: " + menu.style.getPropertyValue("margin-top") + "height: " + height;
 odkazy.style.setProperty("top",height);
 
 menu.addEventListener("click", Show);
