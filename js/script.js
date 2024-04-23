@@ -3,8 +3,9 @@
 var menu = document.getElementById("Menu");
 var odkazy = document.getElementById("Odkazy");
 var button = document.getElementById("Button");
+var tabulky = document.getElementByClassName("Tabulky");
 menu.addEventListener("click", Show);
-odkazy.addEventListener("mouseout", Hide);
+tabulky.addEventListener("mouseout", Hide);
 
 function Show () {
  if (odkazy.style.getPropertyValue("display") == "none") {
