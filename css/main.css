@@ -20,6 +20,11 @@ body {
   height: auto;
 }
 
+.header {
+   width: 400px;
+   height: 50px;
+}
+
 .tabulky {
   display: flex;
   justify-content: center;
