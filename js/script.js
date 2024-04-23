@@ -5,7 +5,7 @@ var odkazy = document.getElementById("Odkazy");
 var button = document.getElementById("Button");
 var tabulky = document.getElementsByTagName("table");
 menu.addEventListener("click", Show);
-tabulky.addEventListener("mouseout", Hide);
+tabulky.addEventListener("mouseover", Hide);
 
 function Show () {
  if (odkazy.style.getPropertyValue("display") == "none") {
