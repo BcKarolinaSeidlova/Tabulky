@@ -21,5 +21,7 @@ function Show () {
 function Hide () {
   if (odkazy.style.getPropertyValue("display") == "flex") {
   odkazy.style.setProperty("display", "none");
+  button.style.setProperty("color","#f4ddba");
+  button.style.setProperty("background","black");
   }
 }
