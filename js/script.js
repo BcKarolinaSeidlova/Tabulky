@@ -35,5 +35,7 @@ function Hide () {
 
 
 //Pokus
-var height = header.offsetHeight;
+var height = header.offsetHeight + menu.offsetHeight + menu.style.getPropertyValue("margin-top") + "px";
 pozn.innerHTML = height;
+
+odkazy.style.setProperty("top",height);
