@@ -27,10 +27,3 @@ function Hide () {
   button.style.setProperty("background","black");
   }
 }
-
-
-var header = document.getElementsByClassName("header");
-var pozn = document.getElementById("Poznamka");
-
-var height = header.offsetHeight + menu.offsetHeight;
-pozn.innerHTML = height + "px";
