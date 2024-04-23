@@ -27,3 +27,18 @@ function Hide () {
   button.style.setProperty("background","black");
   }
 }
+
+
+
+//Pokus
+var header = document.getElementsByClassName("header");
+var pozn = document.getElementById("Poznamka");
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  var width = header.offsetWidth;
+  var pozn = document.getElementById("Poznamka");
+  pozn.innerHTML = width;
+
+}, false);
+
