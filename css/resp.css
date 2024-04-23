@@ -40,6 +40,10 @@
   #Menu, #Button {
     width: 95vw;
   }
+
+  #Odkazy {
+    top: 250px;
+  }
   
   .ButtonSmall {
     width: 80vw;
