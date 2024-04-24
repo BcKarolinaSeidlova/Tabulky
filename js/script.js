@@ -14,7 +14,7 @@ odkazy.style.setProperty("top",height);
 
 menu.addEventListener("click", Show);
 tabulky.addEventListener("mouseover", Hide);
-tabulky.addEventListener("touchstart", Hide);
+tabulky.addEventListener("click", Hide);
 
 function Show () {
  if (odkazy.style.getPropertyValue("display") == "none") {
