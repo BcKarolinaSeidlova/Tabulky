@@ -78,9 +78,3 @@
       width: 90vw;
     }
 }
-
-@media screen and (max-width: 350px) {
-  #Odkazy {
-    top: 250px;
-  }
-}
