@@ -6,8 +6,6 @@ var button = document.getElementById("Button");
 var tabulky = document.getElementsByTagName("table");
 
 var header = document.getElementById("header");
-var pozn = document.getElementById("Poznamka");
-
 var height = header.offsetHeight + menu.offsetHeight + 30 + "px";
 pozn.innerHTML = "height: " + height;
 odkazy.style.setProperty("top",height);
