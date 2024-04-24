@@ -1,15 +1,16 @@
-// zmena viditelnosti polozek v menu
+// deklarace promennych
 
 var menu = document.getElementById("Menu");
 var odkazy = document.getElementById("Odkazy");
 var button = document.getElementById("Button");
 var tabulky = document.getElementsByTagName("table");
-
 var header = document.getElementById("header");
+
+// Dynamicke nastaveni vlastnosti top pro rozklikavaci menu
 var height = header.offsetHeight + menu.offsetHeight + 30 + "px";
-pozn.innerHTML = "height: " + height;
 odkazy.style.setProperty("top",height);
 
+// Zmena viditelnosti menu
 menu.addEventListener("click", Show);
 tabulky.addEventListener("mouseover", Hide);
 tabulky.addEventListener("click", Hide);
