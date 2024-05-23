@@ -42,6 +42,7 @@ h1, h2 {
 
 #Libri > a {
    color: #f4ddba;
+   cursor: pointer;
 }
 
 /* Menu, tlacitka v menu */
