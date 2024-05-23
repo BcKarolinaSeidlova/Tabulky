@@ -36,6 +36,7 @@ h1, h2 {
 
 #Libri {
    text-align: centre;
+   margin: 0px;
 }
 
 #Libri > a {
