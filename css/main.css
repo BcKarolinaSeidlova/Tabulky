@@ -34,13 +34,21 @@ h1, h2 {
   font-style: normal;
 }
 
+#Libri {
+   text-align: centre;
+}
+
+#Libri > a {
+   color: #f4ddba;
+}
+
 /* Menu, tlacitka v menu */
 #Menu {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin: 25px auto 0px auto;
+   margin: 0px auto 0px auto;
 }
 
 #Button {
