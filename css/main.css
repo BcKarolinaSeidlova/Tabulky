@@ -36,7 +36,7 @@ h1, h2 {
 
 #Libri {
    text-align: centre;
-   margin: 0px;
+   margin: 5px auto 5px auto;
 }
 
 #Libri > a {
@@ -60,7 +60,7 @@ h1, h2 {
   border: 2px solid #f4ddba;
   border-radius: 30px;
   text-align: center;
-  margin-bottom: 0px;
+  margin: 0px auto 0px auto;
 }
 
 #Odkazy {
