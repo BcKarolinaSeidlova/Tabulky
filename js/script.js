@@ -7,7 +7,7 @@ var tabulky = document.getElementsByTagName("table");
 var header = document.getElementById("header");
 
 // Dynamicke nastaveni vlastnosti top pro rozklikavaci menu
-var height = header.offsetHeight + menu.offsetHeight + 30 + "px";
+var height = header.offsetHeight + menu.offsetHeight + 40 + "px";
 odkazy.style.setProperty("top",height);
 
 // Zmena viditelnosti menu
